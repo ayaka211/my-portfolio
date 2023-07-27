@@ -1,11 +1,121 @@
-.flex {
-  display: flex;
-}
+/* ==================== ページの設定 ==================== */
+@charset "UTF-8"; /*文字コード*/
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
 
-.heading {
-  color: rgba(127, 255, 212, 0.477);
+html {
+  /*フォントサイズの倍率を100%に設定*/
+  font-size: 100%;
 }
 
 body {
-  background-color: azure;
+  /*文字の色をを黒に指定*/
+  color: #000000;
+  font-family: "Sacramento", cursive;
 }
+
+li {
+  /*リストのマークをなくす*/
+  list-style: none;
+  float: left;
+}
+
+a {
+  /*リンクの下線ををなくす*/
+  text-decoration: none;
+}
+
+/* ============================================= */
+
+/* ==================== header ==================== */
+#header {
+  max-width: 1000px; /*幅*/
+  display: flex; /*横並び*/
+  justify-content: space-between; /*両端揃え*/
+  align-items: center; /*高さ中央揃え*/
+  margin: 0 auto; /*ページ中央揃え*/
+  background-color: #26d0c9;
+  color: #fff;
+  height: 120px;
+}
+
+.header-logo {
+  font-size: 36px;
+  padding: 20px 40px;
+}
+
+.header-list li {
+  font-size: 20px;
+  padding: 33px 20px;
+}
+
+/* ============================================= */
+
+/* ==================== main ==================== */
+.main {
+  padding: 100px 80px;
+}
+.section-title {
+  font-size: 33px;
+}
+/* ============================================= */
+/* ==================== about ==================== */
+#about {
+  max-width: 1000px; /*幅*/
+  text-align: center; /*テキスト中央揃え*/
+  margin: 0 auto; /*ページ中央揃え*/
+  background-color: #b1beea;
+  padding: 40px 20px;
+  font-size: 24px;
+}
+
+/* ============================================= */
+
+/* ==================== News ==================== */
+#news {
+  max-width: 1000px; /*幅*/
+  text-align: center; /*テキスト中央揃え*/
+  margin: 0 auto; /*ページ中央揃え*/
+  background-color: #eabebf;
+  padding: 40px 20px;
+  font-size: 22px;
+}
+/* ============================================= */
+
+/* ==================== Contact ==================== */
+#contact {
+  max-width: 1000px; /*幅*/
+  text-align: center; /*テキスト中央揃え*/
+  margin: 0 auto; /*ページ中央揃え*/
+  background-color: #f7db70;
+  padding: 40px 20px;
+  font-size: 22px;
+}
+
+input,
+textarea {
+  /*入力フォーム*/
+  width: 400px;
+  margin-top: 10px; /*余白*/
+  margin-bottom: 30px; /*余白*/
+  padding: 20px;
+  font-size: 16px;
+  border: 1px solid #dee7ec;
+}
+
+.contact-submit {
+  /*送信ボタン*/
+  background-color: #dee7ec;
+  color: #4c6674;
+}
+/* ============================================= */
+
+/* ==================== Footer ==================== */
+#footer {
+  max-width: 1000px; /*幅*/
+  text-align: center; /*テキスト中央揃え*/
+  margin: 0 auto; /*ページ中央揃え*/
+  background-color: #2f5167;
+  color: #fff;
+  padding: 10px 20px;
+}
+/* ============================================= */

@@ -4,15 +4,97 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- title ================================ -->
+    <title>My Portfolio</title>
+    <!-- CSS読み込み　================================ -->
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
     <link rel="stylesheet" href="style.css" />
-    <title>My Portfolio</title>
-  </head>
+
   <body>
-    <h1 class="heading">ポートフォリオサイト</h1>
-    <h2>学校</h2>
-    <h2>住所</h2>
-    <h2>趣味</h2>
+    <!-- ヘッダー　================================ -->
+    <header id="header">
+      <div class="header-logo">Portfolio</div>
+      <div class="header-list">
+        <ul>
+          <li>About</li>
+          <li>News</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+    </header>
+    <!-- ======================================== -->
+    <!-- メイン　================================ -->
+    <main>
+      <p></p>
+      <!-- About ================================ -->
+      <section id="about">
+        <h2 class="section-title">About</h2>
+        <div class="aboutlist">
+              <p>School</p>
+              <a href="https://www.yokohama-cu.ac.jp">
+                <img src="YCU.jpg" width="60" height="60" />
+              </a>
+              </div>
+<div class="aboutlist">
+              <p>City</p>
+              <a href="https://www.city.yokohama.lg.jp">
+                <img src="yokohama.jpg" width="60" height="60" />
+              </a>
+              </div>
+<div class="aboutlist">
+              <p>Program</p>
+              <a href="https://geek-salon.com">
+              <img src="GeekSalon.png" width="60" height="60" />
+              </a>
+</div>
+        </div>
+      </section>
+      <!-- ======================================== -->
+      <!-- News ================================ -->
+      <section id="news">
+        <h2 class="section-title">News</h2>
+        <div class="newslog">
+        
+          <a href="https://scrapbox.io/webex-19/WebExpertコース19期_キックオフ">July 9th Kickoff</a></div>
+         
+           <div class="newslog">
+         
+           <a href="https://scrapbox.io/webex-19/2023年7月15日(土)_Week1_ゼミ">July 15th Week1</a></div>
+
+            <div class="newslog">
+              <a href="https://scrapbox.io/webex-19/2023年7月22日_(土)_Week2_ゼミ">July 22th Week2</a></div>
+
+            <div class="newslog"><p>July 29th Week3</p>
+              </div>
+
+      </section>
+      <!-- ======================================== -->
+      <!-- Contact ================================ -->
+      <section id="contact">
+        <h2 class="section-title">Contact</h2>
+        <p>Name</p>
+        <input /><!-- 入力フォーム-->
+        <p>E-mail</p>
+        <input />
+        <!-- 入力フォーム-->
+        <p>Message</p>
+        <textarea></textarea>
+        <!-- 入力フォーム-->
+        <p></p>
+        <input class="contact-submit" type="submit" value="submit" />
+        </section>
+        <!-- 送信ボタン -->
+        <!-- ======================================== -->
+      
+    </main>
+    <!-- ======================================== -->
+    <!-- フッター　-->
+    <footer id="footer">
+      <p>&copy; 2023 My Portfolio</p>
+    </footer>
+    <!-- ======================================== -->
+    <!-- JavaScript読み込み-->
     <script src="main.js"></script>
+    <!-- ======================================== -->
   </body>
 </html>
