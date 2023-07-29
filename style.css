@@ -8,9 +8,13 @@ html {
 }
 
 body {
-  /*文字の色をを黒に指定*/
+  /*文字の色を黒に指定*/
   color: #000000;
   font-family: "Sacramento", cursive;
+  max-width: 1000px; /*幅*/
+  max-height: 10px; /*幅*/
+  text-align: center; /*テキスト中央揃え*/
+  margin: 0 auto; /*ページ中央揃え*/
 }
 
 li {
@@ -28,14 +32,15 @@ a {
 
 /* ==================== header ==================== */
 #header {
-  max-width: 1000px; /*幅*/
   display: flex; /*横並び*/
   justify-content: space-between; /*両端揃え*/
   align-items: center; /*高さ中央揃え*/
-  margin: 0 auto; /*ページ中央揃え*/
-  background-color: #26d0c9;
-  color: #fff;
-  height: 120px;
+  /*background-color: #faf600;*/
+  color: white;
+  height: 80px;
+  background-image: url(cyan_blue_watercolour_background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .header-logo {
@@ -43,9 +48,9 @@ a {
   padding: 20px 40px;
 }
 
-.header-list li {
+.header-list a {
   font-size: 20px;
-  padding: 33px 20px;
+  padding: 10px 10px;
 }
 
 /* ============================================= */
@@ -60,35 +65,48 @@ a {
 /* ============================================= */
 /* ==================== about ==================== */
 #about {
-  max-width: 1000px; /*幅*/
-  text-align: center; /*テキスト中央揃え*/
-  margin: 0 auto; /*ページ中央揃え*/
-  background-color: #b1beea;
+  /*background-color: #b1beea;*/
   padding: 40px 20px;
   font-size: 24px;
+  background-image: url(sky.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.aboutlist {
+  display: flex;
+  justify-content: center;
+  mix-blend-mode: multiply; /*透過*/
 }
 
 /* ============================================= */
 
 /* ==================== News ==================== */
 #news {
-  max-width: 1000px; /*幅*/
   text-align: center; /*テキスト中央揃え*/
-  margin: 0 auto; /*ページ中央揃え*/
   background-color: #eabebf;
   padding: 40px 20px;
   font-size: 22px;
+
+  background-image: url(colorful-patterned-background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /*<a href="https://jp.freepik.com/free-photo/colorful-patterned-background_4102541.htm#query=%E8%83%8C%E6%99%AF&position=0&from_view=keyword&track=sph">著作者：rawpixel.com</a>／出典：Freepik*/
 }
+
 /* ============================================= */
 
 /* ==================== Contact ==================== */
 #contact {
-  max-width: 1000px; /*幅*/
-  text-align: center; /*テキスト中央揃え*/
-  margin: 0 auto; /*ページ中央揃え*/
   background-color: #f7db70;
   padding: 40px 20px;
   font-size: 22px;
+  background-image: url(22348568.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 input,
@@ -107,15 +125,21 @@ textarea {
   background-color: #dee7ec;
   color: #4c6674;
 }
+
+.contactForm {
+  display: flex;
+  justify-content: center;
+}
 /* ============================================= */
 
 /* ==================== Footer ==================== */
 #footer {
-  max-width: 1000px; /*幅*/
-  text-align: center; /*テキスト中央揃え*/
-  margin: 0 auto; /*ページ中央揃え*/
   background-color: #2f5167;
   color: #fff;
-  padding: 10px 20px;
+  padding: 5px;
+  /* background-image: url(firework.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;  */
 }
+
 /* ============================================= */

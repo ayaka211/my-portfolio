@@ -16,35 +16,38 @@
       <div class="header-logo">Portfolio</div>
       <div class="header-list">
         <ul>
-          <li>About</li>
-          <li>News</li>
-          <li>Contact</li>
+          <a href="#section-title-about">About</a>
+          <a href="#section-title-news">News</a>
+          <a href="#section-title-contact">Contact</a>
         </ul>
       </div>
     </header>
     <!-- ======================================== -->
     <!-- メイン　================================ -->
     <main>
-      <p></p>
+      <!-- <div class="top-wrapper">
+      </div>
+        <div class="lesson-wrapper"></div>
+         <div class="message-wrapper"></div> -->
       <!-- About ================================ -->
       <section id="about">
-        <h2 class="section-title">About</h2>
+        <h2 id="section-title-about">About</h2>
         <div class="aboutlist">
               <p>School</p>
               <a href="https://www.yokohama-cu.ac.jp">
-                <img src="YCU.jpg" width="60" height="60" />
+                <img src="YCU.jpg" width="70" height="70" />
               </a>
               </div>
 <div class="aboutlist">
               <p>City</p>
               <a href="https://www.city.yokohama.lg.jp">
-                <img src="yokohama.jpg" width="60" height="60" />
+                <img src="yokohama.jpg" width="80" height="80" />
               </a>
               </div>
 <div class="aboutlist">
               <p>Program</p>
               <a href="https://geek-salon.com">
-              <img src="GeekSalon.png" width="60" height="60" />
+              <img src="GeekSalon.jpg" width="60" height="60" />
               </a>
 </div>
         </div>
@@ -52,7 +55,7 @@
       <!-- ======================================== -->
       <!-- News ================================ -->
       <section id="news">
-        <h2 class="section-title">News</h2>
+        <h2 id="section-title-news">News</h2>
         <div class="newslog">
         
           <a href="https://scrapbox.io/webex-19/WebExpertコース19期_キックオフ">July 9th Kickoff</a></div>
@@ -71,21 +74,26 @@
       <!-- ======================================== -->
       <!-- Contact ================================ -->
       <section id="contact">
-        <h2 class="section-title">Contact</h2>
-        <p>Name</p>
+        <h2 id="section-title-contact">Contact</h2>
+
+        <div class="contact">
+        <p class="contactForm">Name</p>
         <input /><!-- 入力フォーム-->
-        <p>E-mail</p>
+        <p class="contactForm">E-mail</p>
         <input />
         <!-- 入力フォーム-->
-        <p>Message</p>
+        <p class="contactForm">Message</p>
         <textarea></textarea>
         <!-- 入力フォーム-->
-        <p></p>
-        <input class="contact-submit" type="submit" value="submit" />
-        </section>
+        </div>
         <!-- 送信ボタン -->
+        <div class="button">
+          <input type="submit" value="submit" >
+        </div>
+   </section>
+        
+        
         <!-- ======================================== -->
-      
     </main>
     <!-- ======================================== -->
     <!-- フッター　-->
